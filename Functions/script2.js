@@ -41,24 +41,24 @@ let mango=(color,taste)=>{
     console.log(`The fruit is ${color} in colour and ${taste} in taste`);
 }
 
-mango("Orange","sweet")
+mango("Orange","sweet");
 
 // IIFE -
 
-// (function(){
-//     console.log(`I am a IIFE`);
-// })();
+(function(){
+    console.log(`I am a IIFE`);
+})();
 
-function fafafa(){
-  if (true) {
-    var a = 10;
-    let b = 20;
+// function fafafa(){
+//   if (true) {
+//     var a = 10;
+//     let b = 20;
 
-    console.log(a); /* will run */
-    console.log(b); /* will run */
-  }
-  console.log(a); /* will run */
-//   console.log(b); this will give error
-}
+//     console.log(a); /* will run */
+//     console.log(b); /* will run */
+//   }
+//   console.log(a); /* will run */
+// //   console.log(b); this will give error
+// }
 
-fafafa()
+// fafafa()
