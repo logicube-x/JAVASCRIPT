@@ -26,7 +26,7 @@ let Mname="Arsh Amin Mansuri";
 console.log(typeof(Mname)
 );
 
-greet= Mname+" Wlecome"
+greet= Mname+" Welcome"
 
 console.log(greet);
 console.log(typeof(greet));
