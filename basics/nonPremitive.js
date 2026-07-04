@@ -22,3 +22,7 @@ let person={
 }
 
 console.log(person["full name"]);
+
+let today =new Date();
+
+console.log(today.getDate());
