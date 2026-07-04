@@ -1,4 +1,4 @@
-//  Objects ,
+//  Objects , Array
 
 let obj={}
 console.log(obj);
@@ -26,3 +26,15 @@ console.log(person["full name"]);
 let today =new Date();
 
 console.log(today.getDate());
+
+
+// Array
+
+let arr=["Arsh",20];
+
+console.log(typeof(arr));
+
+console.log(arr[0]);
+
+
+
