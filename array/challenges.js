@@ -31,3 +31,44 @@ let lastOrder=teaorders.pop()
 console.log(lastOrder);
 
 // 6
+
+let popularTea=["green tea","oolong tea","chai"];
+let softCopy=popularTea;
+console.log(softCopy);
+console.log(popularTea);
+
+softCopy.pop();
+console.log(softCopy);
+popularTea.pop()
+console.log(popularTea);
+
+
+// 7
+
+let topCities=["Berlin","Singapore","New York"]
+let hardCopy=[...topCities];
+
+hardCopy.pop();
+console.log(topCities); /*This do not changes in the original array */
+
+// 8
+let europeanCities=["Paris","Rome"]
+let asianCities=["Tokyo","Bangkok"]
+
+// let worldCities=europeanCities+asianCities;
+// console.log(typeof(worldCities));
+let worldCities=europeanCities.concat(asianCities)
+console.log(worldCities);
+
+// 9
+
+let teaMenu=["masala chai","oolong tea","green tea"];
+
+let teaLeng=teaMenu.length;
+console.log(teaLeng);
+
+// 10 
+let cityBucketList=["Kyoto","London","Cape Town"];
+
+let isLondonInCity=cityBucketList.includes("London");
+console.log(isLondonInCity)
