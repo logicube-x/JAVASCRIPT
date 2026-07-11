@@ -46,3 +46,16 @@ k++;
 
 
 console.log(total);
+
+// 5
+
+let nums=[2,4,6];
+let mulNums=[];
+
+for(let l=0;l<nums.length;l++){
+  temp=nums[l]*2
+  mulNums.push(temp)
+
+}
+
+console.log(mulNums);
