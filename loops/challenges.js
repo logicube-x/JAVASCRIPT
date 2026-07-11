@@ -59,3 +59,14 @@ for(let l=0;l<nums.length;l++){
 }
 
 console.log(mulNums);
+
+// 6
+
+let cities=["paris","New York","London","Tokyo"]
+let myCityList=[]
+
+for(let c=0;c<cities.length;c++){
+    myCityList.push(cities[c])
+}
+
+console.log(myCityList)
