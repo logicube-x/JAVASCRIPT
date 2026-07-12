@@ -50,3 +50,20 @@ for(elem of chai){
     preferredChai.push(elem)
 }
 console.log(preferredChai);
+
+// 5
+
+let citiesPopulation={
+    "London":9498239823,
+    "New York":10000000,
+    "Paris":9000003,
+    "Berlin":5000000,
+}
+
+let cityNewPopulation={}
+
+for (const city in citiesPopulation) {
+ 
+cityNewPopulation[city]=citiesPopulation[city]
+}
+console.log(cityNewPopulation);
