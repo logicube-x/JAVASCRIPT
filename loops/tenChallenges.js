@@ -11,3 +11,18 @@ for(let i=0;i<teas.length;i++){
 }
 
 console.log(selectedTeas);
+
+// 2
+
+let cities=["London","New York ","Paris","Berlin"];
+let visitedCities=[];
+
+for(let j=0;j<cities.length;j++){
+    
+    if(cities[j]==="Paris") continue;
+
+    else{
+        visitedCities.push(cities[j]);
+    }
+}
+console.log(visitedCities);
