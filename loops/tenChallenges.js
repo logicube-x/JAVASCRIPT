@@ -38,3 +38,15 @@ for (const elem of numbers) {
    selNumbers.push(elem)
 }
 console.log(selNumbers);
+
+// 4
+
+let chai=["chai","green tea","herbel tea","black tea"]
+let preferredChai=[]
+
+for(elem of chai){
+    if(elem ==="herbel tea") continue;
+
+    preferredChai.push(elem)
+}
+console.log(preferredChai);
