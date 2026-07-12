@@ -26,3 +26,15 @@ for(let j=0;j<cities.length;j++){
     }
 }
 console.log(visitedCities);
+
+// 3
+
+let numbers=[1,2,3,4,5]
+let selNumbers=[]
+
+for (const elem of numbers) {
+   
+    if(elem===4) break;
+   selNumbers.push(elem)
+}
+console.log(selNumbers);
