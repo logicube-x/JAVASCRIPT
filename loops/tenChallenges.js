@@ -72,3 +72,38 @@ for (const elem in citiesPopulation) {
 }
 
 console.log(cityPopulation);
+
+// 6
+
+let cityP={
+    "Sydney":5000000,
+    "Tokyo":9000000,
+    "Paris":2200000,
+    "Berlin":3500000
+}
+
+let largeCities={}
+
+for (const c in cityP) {
+  if(cityP[c]<3000000)
+    continue;
+
+  largeCities[c]=cityP[c]
+
+}
+
+console.log(largeCities)
+
+// 7
+
+let teass=["earl grey","green tea","chai","oolong tea"];
+let availableTeas=[];
+
+teass.forEach((e)=>{
+   if(e==="chai") return;
+
+   availableTeas.push(e)
+   
+})
+
+console.log(availableTeas);
