@@ -60,10 +60,15 @@ let citiesPopulation={
     "Berlin":5000000,
 }
 
-let cityNewPopulation={}
+let cityPopulation={}
 
-for (const city in citiesPopulation) {
- 
-cityNewPopulation[city]=citiesPopulation[city]
+
+for (const elem in citiesPopulation) {
+  
+    // console.log(citiesPopulation[elem]); this gives the values ex : 50000000
+    if(elem==="Berlin") break;
+    cityPopulation[elem]=citiesPopulation[elem]
+    
 }
-console.log(cityNewPopulation);
+
+console.log(cityPopulation);
