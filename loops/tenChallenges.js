@@ -107,3 +107,17 @@ teass.forEach((e)=>{
 })
 
 console.log(availableTeas);
+
+// 8
+
+let cty=["Berlin","Tokyo","Sydney","Paris"]
+let travelledcities=[];
+
+cty.forEach((sel)=>{
+
+    if(sel==="Sydney") return;
+
+    travelledcities.push(sel)
+})
+
+console.log(travelledcities);
