@@ -9,7 +9,7 @@ console.log(teaOrder);
 
 // 2
 
-function orderTea(teaTypes){
+function orderTea(){
 
     function confirmOrder(){
 
