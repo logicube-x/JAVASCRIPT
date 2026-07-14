@@ -11,15 +11,13 @@ console.log(teaOrder);
 
 function orderTea(teaTypes){
 
-    function orderConfirmed(){
+    function confirmOrder(){
 
         return `Order confirmed for chai`
+
     }
-
-    return orderConfirmed()
-
+ return confirmOrder();
 }
 
-let teaa=orderTea()
-console.log(teaa);
-
+let mytea=orderTea();
+console.log(mytea);
