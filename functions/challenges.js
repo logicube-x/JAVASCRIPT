@@ -21,3 +21,13 @@ function orderTea(){
 
 let mytea=orderTea();
 console.log(mytea);
+
+// 3 Arrow function
+
+const calculateTotal =(price,quantity)=>{
+  return price*quantity
+
+}
+
+ let temp=calculateTotal(10000,2)
+console.log(temp);
