@@ -133,3 +133,18 @@ for(let i=0;i<nums.length;i++){
     doubledNums.push(nums[i]*2);
 }
 console.log(doubledNums);
+
+// 10
+
+let myTeas=["chai","green tea","black tea","jasmine tea","herbal tea"];
+let shortTeas=[];
+
+for (const e of myTeas) {
+    
+    if(e.length>10) continue;
+
+    shortTeas.push(e);
+
+}
+
+console.log(shortTeas);
