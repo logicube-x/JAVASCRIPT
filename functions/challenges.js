@@ -31,3 +31,6 @@ const calculateTotal =(price,quantity)=>{
 
  let temp=calculateTotal(10000,2)
 console.log(temp);
+
+// 4 HOF
+
